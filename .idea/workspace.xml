@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325cc0ed-08ba-4b03-a8d6-4fe40e568a6f" name="Changes" comment="get method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="325cc0ed-08ba-4b03-a8d6-4fe40e568a6f" name="Changes" comment="updated post method">
       <change beforePath="$PROJECT_DIR$/src/com/httpclient/demo/HttpClientSyncDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/httpclient/demo/HttpClientSyncDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +60,19 @@
       <option name="project" value="LOCAL" />
       <updated>1682385918408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated post method">
+      <created>1682386676050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682386676050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get method" />
-    <option name="LAST_COMMIT_MESSAGE" value="get method" />
+    <MESSAGE value="updated post method" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated post method" />
   </component>
 </project>

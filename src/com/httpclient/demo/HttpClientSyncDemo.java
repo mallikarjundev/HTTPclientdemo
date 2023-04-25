@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.http.HttpClient;
+import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
@@ -22,5 +23,7 @@ public class HttpClientSyncDemo {
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println("status==> "+ response.statusCode());
         System.out.println(response.body());
+        HttpHeaders headers = response.headers();
+        System.out.println(headers.map());
     }
 }
